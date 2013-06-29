@@ -8,7 +8,7 @@
 
   <url type="website">http://gitlab.jhu.lcsr.edu</url>
 
-  <author email="jbo@jhu.edu">Ish Sanchez</author>
+  <author>Ish Sanchez</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -16,15 +16,11 @@
   <build_depend>roscpp</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>gazebo_ros_control</build_depend>
-  <build_depend>effort_controllers</build_depend>
   <build_depend>hardware_interface</build_depend>
 
   <run_depend>roscpp</run_depend>
-  <run_depend>irk_model</run_depend>
-  <run_depend>irk_gazebo</run_depend>
   <run_depend>hardware_interface</run_depend>
   <run_depend>gazebo_ros_control</run_depend>
-  <run_depend>effort_controllers</run_depend>
   <run_depend>gazebo_ros</run_depend>
 
   <export>
