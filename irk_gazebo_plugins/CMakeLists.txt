@@ -11,7 +11,7 @@ if (PKG_CONFIG_FOUND)
 endif()
 
 catkin_package(
-  CATKIN_DEPENDS roscpp gazebo_ros_control effort_controllers gazebo_ros
+  CATKIN_DEPENDS roscpp gazebo_ros_control gazebo_ros
   )
 
 # Build RobotSim Interface
