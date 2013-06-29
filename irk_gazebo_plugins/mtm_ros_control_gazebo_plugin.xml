@@ -1,0 +1,11 @@
+<library path="lib/libirk_gazebo_plugins">
+
+  <class
+    name="irk_gazebo_plugins/RobotSimMTM"
+    type="irk_gazebo_plugins::RobotSimMTM"
+    base_class_type="ros_control_gazebo::RobotSim">
+    <description>
+      A test robot simulation interface.
+    </description>
+  </class>
+</library>
